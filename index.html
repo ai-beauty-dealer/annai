@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>アクティム分藤の案内アーカイブ</title>
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+<style>
+  html, body { margin: 0; padding: 0; height: 100%; background: #f6f5f2; }
+  iframe { border: 0; width: 100%; height: 100%; display: block; }
+</style>
+</head>
+<body>
+<iframe id="app" allow="fullscreen"></iframe>
+<script>
+  // 合言葉(?k=)はこのページのURLからそのままGASへ引き継ぐ。リポジトリにトークンは置かない
+  document.getElementById('app').src =
+    'https://script.google.com/macros/s/AKfycbw-KHMGZqektIAHvgwShm8ioroIGZePzY_xQg1aZpaUMiezZ0w8XDPkLMC-sciyEIJw2g/exec' +
+    location.search;
+</script>
+</body>
+</html>
